@@ -29,3 +29,15 @@ const person = {
 
 const { name, age } = person;
 
+
+//8.import和export
+
+export default {
+    compute: () => {
+        return "compote";
+    }
+}
+
+import Compute from './lib';
+Compute()
+
